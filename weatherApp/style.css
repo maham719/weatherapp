@@ -8,9 +8,7 @@
 }
 
 body{
-    background-image: url('/images/bg.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
+   background-color:#DDD;
 }
 .w-type{
     font-size: 1.5rem;
