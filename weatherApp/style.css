@@ -15,16 +15,16 @@ body{
 }
 .main{
     font-size: 3rem;
-    font-weight: 400;
-    color: #555;
+    font-weight: 600;
+    color: white;
     text-align: center;
     margin-top: 2rem;
 }
 .card{
     width: 90%;
     max-width: 470px;
-    background: rgba(34, 192, 195, 0.766);
-    background: linear-gradient(0deg, rgba(34, 192, 195, 0.776) 0%, rgba(45, 249, 253, 0.708) 100%);
+   background: rgba(34, 192, 195, 0.766);
+    background: linear-gradient(0deg, rgba(34, 192, 195, 0.776) 0%, rgba(45, 184, 253, 0.843) 100%);
     color: #fff;
     margin: 50px auto 20px;
     border-radius: 20px;
