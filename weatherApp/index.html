@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="/images/weather-app.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Weather App</title>
+</head>
+<body>
+    <h1 class="main">Weather App</h1>
+
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="enter city name" spellcheck="false">
+            <button>
+            <i class="fas fa-search"></i>
+        </button>
+        </div>
+        <div class="error"><p>invalid city name</p></div>
+        <div class="weather">
+            <img src="images/rain.png" alt="" class="weather-icon">
+            <p class="w-type">cloudy</p>
+            <h1 class="temp">23 °C</h1>
+            <h2 class="city">New York</h2>
+            <div class="details">
+                <div class="col-1">
+                    <img src="images/humidity.png" alt="">
+                <div>
+                    <p class="humidity">50%</p>
+                    <p>Humidity</p>
+                </div>
+                </div>
+<!-- <img src="/images/cloudy (2).png" alt=""> -->
+                <div class="col-1">
+                    <img src="images/wind (1).png" alt="">
+                <div>
+                    <p class="wind">15 km/h</p>
+                    <p>Wind Speed</p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
