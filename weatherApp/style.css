@@ -171,5 +171,7 @@ body {
     align-items: center;
     justify-content: space-between;
     
+    .col-1 img{
+        width:1.7rem;
     }
 }
