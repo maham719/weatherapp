@@ -114,3 +114,9 @@ background-color:black;
 .error{
     display: none;
 }
+
+@media screen (max-widht:400px){
+    .search{
+        width:100%;
+    }
+}
