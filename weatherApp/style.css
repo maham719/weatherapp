@@ -125,8 +125,7 @@ body {
 
 @media screen and (max-width: 400px) {
     .search {
-        width: 100%;
-        flex-direction: column;
+        width: 90%;
         gap: 1rem;
     }
 
