@@ -10,7 +10,7 @@
 body{
 background-color:black;
 }
-}
+
 .w-type{
     font-size: 1.5rem;
 }
@@ -115,7 +115,7 @@ background-color:black;
     display: none;
 }
 
-@media screen (max-widht:400px){
+@media screen and(max-width:400px){
     .search{
         width:95%;
     }
